@@ -1,5 +1,7 @@
 #include <fsm.h>
 
+void (*reboot)(void);
+
 void startbf(void *data);
 void startpd(void *data);
 void startsandbf(void *data);

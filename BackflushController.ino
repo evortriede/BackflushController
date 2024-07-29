@@ -102,4 +102,5 @@ void startsandbf(void *data)
 void done(void *data)
 {
   digitalWrite(RELAYS, OFF);
+  reboot();
 }
